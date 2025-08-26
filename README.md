@@ -1,4 +1,7 @@
-### Daniela's Nest
+# Daniela's Nest
+
+## Install
+`npm install`  
 
 ## Start
 `npm run start:dev`
@@ -7,15 +10,15 @@
 
 src/article/article.service.ts
 
-`  async create(createArticleDto: CreateArticleDto) {`
-`    console.log("create 2: ", {...createArticleDto})`
-`    // v v v hier `
-`    const article = await this.articleModel.create({...createArticleDto});`
-`    // ^ ^ ^ hier `
-`    console.log("create 3: ", article)`
-` `
-`    return article;`
-`  }`
+`  async create(createArticleDto: CreateArticleDto) {`  
+`    console.log("create 2: ", {...createArticleDto})`  
+`    // v v v hier `  
+`    const article = await this.articleModel.create({...createArticleDto});`  
+`    // ^ ^ ^ hier `  
+`    console.log("create 3: ", article)`  
+` `  
+`    return article;`  
+`  }`  
 
 
 <p align="center">
