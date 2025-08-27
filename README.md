@@ -1,10 +1,15 @@
 # Daniela's Nest
+Nest.js mit Sequelize / SGlite
 
 ## Install
 `npm install`  
 
 ## Start
-`npm run start:dev`
+`npm run start:dev`  
+
+## Quellen
+https://medium.com/@mikess_dev/creating-a-nest-js-project-with-sequelize-and-sqlite-870d29908a8c 
+
 
 ## Problem
 

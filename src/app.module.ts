@@ -15,6 +15,6 @@ import { SequelizeModule } from '@nestjs/sequelize';
     // ArticlesModule, 
     ArticleModule], 
   controllers: [AppController],
-  // providers: [AppService, ...databaseProviders],
+  providers: [AppService],
 })
 export class AppModule {}
